@@ -253,6 +253,9 @@ a {
   .popular-foods__card.active-card {
     min-width: 100%;
   }
+  .popular-foods__title {
+    font-size: 33px;
+  }
 
   .popular-foods__filters {
     padding-left: 20px;
@@ -339,5 +342,8 @@ a {
 
   .trending__content {
     padding: 32px;
+  }
+  .subscription h2 {
+    font-size: 35px;
   }
 }
