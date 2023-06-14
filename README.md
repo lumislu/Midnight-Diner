@@ -1,7 +1,8 @@
 # Midnight-Diner
 
 ![baidu](/assets/MIDNOGHT-DINER.png)    
-##介紹    
+## 介紹
+---------------------------
 使用 HTML/CSS 製作響應式網站    
 *使用 CSS variables    
 *將 CSS 檔案匯入其他 CSS 檔案    
