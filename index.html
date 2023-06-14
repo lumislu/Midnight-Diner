@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/public/logo.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>深夜食堂 Midnight-Diner</title>
+  </head>
+  <body>
+    <header>
+      <nav class="header__nav">
+        <div class="header__logo">
+          <h4 data-aos="fade-down">Midnight-Diner</h4>
+          <div class="header__logo-overlay"></div>
+        </div>
+
+        <ul class="header__menu" data-aos="fade-down">
+          <li>
+            <a href="#menu">Menu</a>
+          </li>
+          <li>
+            <a href="#food">Food</a>
+          </li>
+          <li>
+            <a href="#services">Services</a>
+          </li>
+          <li>
+            <a href="#about-us">About Us</a>
+          </li>
+          <li>
+            <img src="assets/search.svg" alt="search" />
+          </li>
+        </ul>
+
+        <ul class="header__menu-mobile" data-aos="fade-down">
+          <li>
+            <img src="assets/menu.svg" alt="menu" />
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-image">
+        <img src="assets/donburi.png" alt="donburi" data-aos="fade-up" />
+        <h2 data-aos="fade-up">
+          Midnight <br />
+          Diner <br />
+        </h2>
+
+        <div class="hero-image__overlay"></div>
+      </div>
+
+      <div class="hero-content">
+        <div class="hero-content-info" data-aos="fade-left">
+          <h1>味蕾的避風港：<br />營業中的深夜食堂</h1>
+          <p>
+            "歡迎來到深夜食堂！這裡是一個為熱愛夜生活的美食愛好者提供豐富、美味的深夜美食的網站。無論你是一位深夜工作者、夜貓子還是熱愛夜晚冒險的人，我們的網站將為你帶來令人垂涎的食物體驗。
+          </p>
+
+          <div class="hero-content__buttons">
+            <button class="hero-content__order-button">立即點餐</button>
+            <button class="hero-content__play-button">
+              <img src="assets/play-circle.svg" alt="play" />
+              如何點餐
+            </button>
+          </div>
+        </div>
+
+        <div class="hero-content__testimonial" data-aos="fade-up">
+          <div class="hero-content__customer flex-center">
+            <h4>24<span>k+</span></h4>
+            <p>Happy Customers</p>
+          </div>
+
+          <div class="hero-content__review">
+            <img src="assets/user.png" alt="user" />
+            <p>
+              "我在尋找深夜美食靈感時偶然發現了『深夜食堂』，這個網站超出了我的期望！丼飯的種類非常多，推薦給像我這樣的夜貓子！"
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-us" id="about-us">
+      <div class="about-us__image">
+        <div class="about-us__image-fired">
+          <img src="assets/fired.png" alt="fired" data-aos="fade-right" />
+        </div>
+
+        <button class="about-us__button">
+          Learn More
+
+          <img src="assets/arrow-up-right.svg" alt="learn more" />
+        </button>
+
+        <div class="about-us__image-donburi3">
+          <img src="assets/soup.png" alt="donburi-3" data-aos="fade-right" />
+        </div>
+      </div>
+
+      <div class="about-us__content" data-aos="fade-left">
+        <p class="food__subtitle">About Us / 關於我們</p>
+        <h3 class="food__title">我們將為你帶來令人垂涎的食物體驗</h3>
+        <p class="food__description">
+          探索各種丼飯、小吃和特色美食的食譜，並瞭解如何在家中輕鬆製作出這些美味佳餚。無論你是想尋找夜宵靈感、準備一頓特別的深夜饗宴，還是只是想瞭解深夜食堂文化，這個網站將成為你的指南和資訊寶庫。
+        </p>
+      </div>
+    </section>
+
+    <section class="popular-foods" id="menu">
+      <h2 class="popular-foods__title" data-aos="flip-up">
+        Popular Food / 人氣商品
+      </h2>
+
+      <div
+        class="popular-foods__filters food__hide-scrollbar"
+        data-aos="fade-up"
+      >
+        <button class="popular-foods__filter-btn active">All</button>
+        <button class="popular-foods__filter-btn">
+          <img src="assets/donburi-2.png" alt="donburi-2" />
+          主食
+        </button>
+        <button class="popular-foods__filter-btn">
+          <img src="assets/snake.png" alt="snake" />
+          甜點
+        </button>
+        <button class="popular-foods__filter-btn">
+          <img src="assets/egg.png" alt="egg" />
+          副餐
+        </button>
+        <button class="popular-foods__filter-btn">
+          <img src="assets/drink.png" alt="drink" />
+          飲料
+        </button>
+        <button class="popular-foods__filter-btn">All</button>
+      </div>
+
+      <div class="popular-foods__catalogue" data-aos="fade-up">
+        <article class="popular-foods__card">
+          <img
+            class="popular-foods__card-image"
+            src="assets/donburi-2.png"
+            alt="donburi-2"
+          />
+          <h4 class="popular-foods__card-title">鮭魚卵丼</h4>
+
+          <div class="popular-foods__card-details flex-between">
+            <div class="popular-foods__card-rating">
+              <img src="assets/star.svg" alt="star" />
+              <p>4.9</p>
+            </div>
+
+            <p class="popular-foods__card-price">NT$270</p>
+          </div>
+        </article>
+
+        <article class="popular-foods__card active-card">
+          <img
+            class="popular-foods__card-image"
+            src="assets/donburi-4.png"
+            alt="donburi-4"
+          />
+          <h4 class="popular-foods__card-title">漁夫海景丼</h4>
+
+          <div class="popular-foods__card-details flex-between">
+            <div class="popular-foods__card-rating">
+              <img src="assets/star.svg" alt="star" />
+              <p>5.0</p>
+            </div>
+
+            <p class="popular-foods__card-price">NT$520</p>
+          </div>
+        </article>
+
+        <article class="popular-foods__card">
+          <img
+            class="popular-foods__card-image"
+            src="assets/cake.png"
+            alt="cake"
+          />
+          <h4 class="popular-foods__card-title">草莓芝士蛋糕</h4>
+
+          <div class="popular-foods__card-details flex-between">
+            <div class="popular-foods__card-rating">
+              <img src="assets/star.svg" alt="star" />
+              <p>4.7</p>
+            </div>
+
+            <p class="popular-foods__card-price">NT$130</p>
+          </div>
+        </article>
+      </div>
+
+      <button class="popular-foods__button">
+        Explore Food
+        <img src="assets/arrow-right.svg" alt="arrow-right" />
+      </button>
+    </section>
+
+    <section class="trending" id="food">
+      <section class="trending-food">
+        <div class="trending__content" data-aos="fade-right">
+          <p class="food__subtitle">What’s Trending / 人氣商品</p>
+
+          <h3 class="food__title">生丼/炙燒</h3>
+          <p class="food__description">
+            食材在高溫下先經過炙燒或烤燒，食材的外皮糖化賦予食材一種獨特的甜味和香氣，同時保留了內部的鮮嫩和原始的口感。
+          </p>
+
+          <ul class="trending__list flex-between">
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>炙燒鰻魚壽司</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>漁夫海景丼</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>鮭魚卵丼</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>炙燒北海道帆立貝刺身</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>炙燒和牛壽司</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>鮭魚親子丼</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="trending__image flex-center">
+          <img
+            src="assets/donburi-3.png"
+            alt="donburi-3"
+            data-aos="fade-left"
+          />
+        </div>
+      </section>
+
+      <div class="trending__discover" data-aos="zoom-in">
+        <p>Discover</p>
+      </div>
+
+      <section class="trending-snakes">
+        <div class="trending__image flex-center">
+          <img
+            class="trending__image-img"
+            src="assets/snake.png"
+            alt="snake"
+            data-aos="fade-right"
+          />
+        </div>
+
+        <div class="trending__content" data-aos="fade-left">
+          <p class="food__subtitle">What’s Trending / 人氣商品</p>
+
+          <h3 class="food__title">小吃/甜點</h3>
+          <p class="food__description">
+            常見的小吃和甜點選擇，每一道都有其獨特的風味和口感。
+          </p>
+
+          <ul class="trending__list flex-between">
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>草莓芝士蛋糕</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>日式鯛魚燒</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>草莓塔</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>糯米糰子</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>冰火菠蘿麵包</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>台式雙蛋煎</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </section>
+
+    <section class="subscription flex-center" id="services">
+      <h2 data-aos="flip-down">
+        直接將最新的優惠信息<br />
+        送至您的收件箱
+      </h2>
+      <p data-aos="fade-up">註冊獲得優惠資訊</p>
+
+      <div class="subscription__form" data-aos="fade-up">
+        <input type="text" placeholder="Enter your email address" />
+        <button>立即註冊</button>
+      </div>
+    </section>
+
+    <footer class="footer flex-between">
+      <h3 class="footer__logo"><span>Midnight</span>-Diner</h3>
+
+      <ul class="footer__nav">
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#food">Food</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about-us">About Us</a></li>
+      </ul>
+
+      <ul class="footer__social">
+        <li class="flex-center">
+          <img src="assets/facebook.svg" alt="facebook" />
+        </li>
+        <li class="flex-center">
+          <img src="assets/instagram.svg" alt="instagram" />
+        </li>
+        <li class="flex-center">
+          <img src="assets/twitter.svg" alt="twitter" />
+        </li>
+      </ul>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({ duration: 1000, offset: 100 });
+    </script>
+  </body>
+</html>
