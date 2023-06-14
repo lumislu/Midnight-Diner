@@ -109,9 +109,8 @@ a {
     flex-direction: row;
   }
 
-  .about-us__image-food3 {
-    border-bottom: none;
-    border-right: 8px solid var(--color-creamson);
+  .about-us__image {
+    padding: 12px 12px;
   }
 
   .about-us__button {
@@ -127,10 +126,10 @@ a {
 @media screen and (max-width: 750px) {
   .about-us__image {
     flex-direction: column;
+    padding: 12px;
   }
 
   .about-us__image-food3 {
-    border-bottom: 8px solid var(--color-creamson);
     border-right: none;
   }
 
@@ -141,12 +140,16 @@ a {
 }
 
 @media screen and (max-width: 550px) {
-  .about-us__image-food2 img,
-  .about-us__image-food3 img {
-    width: 50%;
-    height: 160px;
-
+  .about-us__image-fired img {
+    height: 300px;
     object-fit: contain;
+  }
+  .about-us__image-soup img {
+    height: 200px;
+    margin: 0;
+  }
+  .about-us__image {
+    max-height: 600px;
   }
 
   .about-us__image div {
@@ -154,11 +157,14 @@ a {
   }
 
   .about-us__button {
-    top: 44%;
+    top: 54%;
   }
 
   .about-us__content {
     padding: 32px;
+  }
+  .food__title {
+    font-size: 40px;
   }
 }
 /* END: about us media queries */
@@ -204,6 +210,9 @@ a {
     font-size: 70px;
     line-height: 90px;
   }
+  .hero-content-info h1 {
+    font-size: 50px;
+  }
 }
 
 @media screen and (max-width: 550px) {
@@ -217,7 +226,7 @@ a {
   }
 
   .hero-content-info h1 {
-    font-size: 60px;
+    font-size: 40px;
   }
 
   .hero-content-info p {
@@ -269,8 +278,8 @@ a {
   }
 
   .subscription h2 {
-    font-size: 68px;
-    line-height: 100px;
+    font-size: 40px;
+    line-height: 80px;
   }
 
   .subscription__form {
